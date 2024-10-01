@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.sidebar {
+    background-color: blue;
+    grid-area: 1 / 1 / 6 / 2;
+}
+
+.header {
+    background-color: red;
+    grid-area: 1 / 2 / 2 / 5;
+}
+
+.main-content {
+    background-color: green;
+    grid-area: 2 / 2 / 6 / 5;
+}
