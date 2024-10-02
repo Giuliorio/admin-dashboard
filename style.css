@@ -3,7 +3,7 @@ body {
     width: 100vw;
 
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
 }
 
@@ -40,11 +40,11 @@ body {
 /* Header Section */
 .header {
     background-color: #fff;
-    grid-area: 1 / 2 / 2 / 5;
+    grid-area: 1 / 2 / 2 / 6;
 }
 
 /* Main-Content Section */
 .main-content {
     background-color: #E2E8F0;
-    grid-area: 2 / 2 / 6 / 5;
+    grid-area: 2 / 2 / 6 / 6;
 }
