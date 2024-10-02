@@ -8,16 +8,16 @@ body {
 }
 
 .sidebar {
-    background-color: blue;
+    background-color: #1A92D5;
     grid-area: 1 / 1 / 6 / 2;
 }
 
 .header {
-    background-color: red;
+    background-color: #fff;
     grid-area: 1 / 2 / 2 / 5;
 }
 
 .main-content {
-    background-color: green;
+    background-color: #E2E8F0;
     grid-area: 2 / 2 / 6 / 5;
 }
