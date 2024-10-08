@@ -25,6 +25,8 @@ body {
     gap: 48px;
 
     padding-left: 48px;
+
+    z-index: 2;
 }
 
 .sidebar .section {
@@ -42,14 +44,16 @@ body {
     background-color: #fff;
     grid-area: 1 / 2 / 2 / 6;
 
-    /* max-height: 150px; */
-
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(5, 1fr);
     gap: .5rem;
 
     padding: 16px 80px 16px 48px;
+
+    z-index: 1;
+
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .15);
 }
 
 .header > div {
