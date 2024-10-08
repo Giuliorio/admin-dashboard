@@ -71,6 +71,22 @@ body {
 
 .header .profile {
     grid-area: 1 / 4 / 2 / 6;
+
+    font-weight: 600;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+
+    padding-right: 2rem;
+}
+
+.profile .image {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #1A92D5;
 }
 
 .header .intro {
